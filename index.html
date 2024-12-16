@@ -3,46 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ксения Волкова</title>
+    <title>Мероприятия</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em 0;
             text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
+            padding: 2em 0;
+            background-color: #f8c1d9;
             color: white;
-            text-decoration: none;
-            padding: 1em;
-            display: block;
-        }
-        nav a:hover {
-            background-color: #4CAF50;
+            font-size: 1.5em;
         }
         section {
             padding: 2em;
             margin: 0 auto;
             max-width: 800px;
             background: white;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 1em 0;
+            padding: 1em;
+            background: #f8c1d9;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
             text-align: center;
             padding: 1em;
-            background-color: #333;
+            background-color: #d998b6;
             color: white;
             margin-top: 20px;
         }
@@ -51,49 +58,23 @@
 <body>
 
 <header>
-    <h1>Сайт Ксении Волковой</h1>
+    Мероприятия
 </header>
 
-<nav>
-    <a href="#about">Об авторе</a>
-    <a href="#events">Конференции и мероприятия</a>
-    <a href="#contacts">Контакты</a>
-    <a href="#thesis">О реферате</a>
-</nav>
-
-<section id="about">
-    <h2>Об авторе</h2>
-    <p>Ксения Волкова — магистрант группы Ж-1 специальности "Журналистика и медиатехнологии" Белорусского государственного университета. Окончила первую ступень высшего образования с красным дипломом. Владеет шестью языками, увлекается спортом и искусством.</p>
-</section>
-
-<section id="events">
+<section>
     <h2>Участие в конференциях и мероприятиях</h2>
     <ul>
-        <li>Международная научно-практическая конференция «Интеграционные и дезинтеграционные процессы на постсоветском пространстве» (Псков, Российская Федерация, 17.10.2024).</li>
-        <li>Конференция Яндекса о людях и технологиях в образовании «Yet another Conference on Education 2024» (13.11.2024).</li>
-        <li>Форум по управлению интернетом Belarus IGF-2024 (03.12.2024).</li>
+        <li>
+            <strong>Международная научно-практическая конференция:</strong> «Интеграционные и дезинтеграционные процессы на постсоветском пространстве» в рамках Международного научно-образовательного форума (Псков, Российская Федерация, 17.10.2024 г.).
+        </li>
+        <li>
+            <strong>Конференция Яндекса:</strong> «Yet another Conference on Education 2024», посвящённая людям и технологиям в образовании (13.11.2024 г.).
+        </li>
+        <li>
+            <strong>Форум по управлению интернетом:</strong> Belarus IGF-2024 для экспертных консультаций и апробации гипотез (3.12.2024 г.).
+        </li>
     </ul>
-    <p>Готовится к публикации статья «Роль и концепция медиашколы на постсоветском пространстве» по итогам научной конференции.</p>
-</section>
-
-<section id="contacts">
-    <h2>Контакты</h2>
-    <p>Ксения Волкова</p>
-    <p>Телефон: +375 (29) 996-60-05</p>
-    <p>Email: <a href="mailto:volchocksks9078@yandex.by">volchocksks9078@yandex.by</a></p>
-</section>
-
-<section id="thesis">
-    <h2>Краткая информация о реферате</h2>
-    <p><strong>Тема:</strong> "Информационные технологии в организации и реализации медиаобразовательных проектов".</p>
-    <h3>Содержание:</h3>
-    <ul>
-        <li>Введение</li>
-        <li>Теоретические основы медиаобразования и информационных технологий</li>
-        <li>Информационные технологии для организации медиаобразования</li>
-        <li>Реализация медиаобразовательных проектов с применением ИТ</li>
-        <li>Заключение</li>
-    </ul>
+    <a href="index.html">На главную</a>
 </section>
 
 <footer>
